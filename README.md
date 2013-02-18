@@ -11,3 +11,8 @@ If you are using CJInfinityScrollTableViewController in your non-arc project, yo
 To set a compiler flag in Xcode, go to your active target and select the "Build Phases" tab. Now select all CJInfinityScrollTableViewController source files, press Enter, insert `-fobjc-arc` and then "Done" to enable or disable ARC.
 
 <img src="https://github.com/batosai/CJInfinityScrollTableViewController/raw/master/demo.gif"/>
+
+
+### Creators
+[Jérémy Chaufourier](http://github.com/batosai)  
+[@chaufourier](https://twitter.com/chaufourier)

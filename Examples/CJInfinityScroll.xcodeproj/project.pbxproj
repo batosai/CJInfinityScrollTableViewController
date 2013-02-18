@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F20658F16D2E3D7005780A7 /* CJInfinityScrollTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20658E16D2E3D7005780A7 /* CJInfinityScrollTableViewController.m */; };
+		3F313D5916CC3D0000AEB3BB /* loader-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F313D5516CC3D0000AEB3BB /* loader-1.png */; };
+		3F313D5A16CC3D0000AEB3BB /* loader-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F313D5616CC3D0000AEB3BB /* loader-3.png */; };
+		3F313D5B16CC3D0000AEB3BB /* loader-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F313D5716CC3D0000AEB3BB /* loader-2.png */; };
+		3F313D5C16CC3D0000AEB3BB /* loader-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F313D5816CC3D0000AEB3BB /* loader-4.png */; };
+		3F313D5F16CC3F9B00AEB3BB /* CJRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D5E16CC3F9B00AEB3BB /* CJRootController.m */; };
+		3F313D6216CC419F00AEB3BB /* CJCustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6116CC419F00AEB3BB /* CJCustomTableViewController.m */; };
+		3F313D7716CC444100AEB3BB /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6516CC444100AEB3BB /* AFHTTPClient.m */; };
+		3F313D7816CC444100AEB3BB /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6716CC444100AEB3BB /* AFHTTPRequestOperation.m */; };
+		3F313D7916CC444100AEB3BB /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6916CC444100AEB3BB /* AFImageRequestOperation.m */; };
+		3F313D7A16CC444100AEB3BB /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6B16CC444100AEB3BB /* AFJSONRequestOperation.m */; };
+		3F313D7B16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6D16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.m */; };
+		3F313D7C16CC444100AEB3BB /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D7016CC444100AEB3BB /* AFPropertyListRequestOperation.m */; };
+		3F313D7D16CC444100AEB3BB /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D7216CC444100AEB3BB /* AFURLConnectionOperation.m */; };
+		3F313D7E16CC444100AEB3BB /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D7416CC444100AEB3BB /* AFXMLRequestOperation.m */; };
+		3F313D7F16CC444100AEB3BB /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D7616CC444100AEB3BB /* UIImageView+AFNetworking.m */; };
+		3F313D8216CC452900AEB3BB /* CJAFNetworkingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D8116CC452900AEB3BB /* CJAFNetworkingTableViewController.m */; };
+		3F313D8516CC4A3E00AEB3BB /* AFClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D8416CC45FB00AEB3BB /* AFClient.m */; };
+		3FBC149A16D193E400654C35 /* CJButtonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC149916D193E400654C35 /* CJButtonTableViewController.m */; };
+		3FE0BFCE16CB01EC0077AE90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE0BFCD16CB01EC0077AE90 /* UIKit.framework */; };
+		3FE0BFD016CB01EC0077AE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE0BFCF16CB01EC0077AE90 /* Foundation.framework */; };
+		3FE0BFD216CB01EC0077AE90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE0BFD116CB01EC0077AE90 /* CoreGraphics.framework */; };
+		3FE0BFD816CB01ED0077AE90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFD616CB01ED0077AE90 /* InfoPlist.strings */; };
+		3FE0BFDA16CB01ED0077AE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0BFD916CB01ED0077AE90 /* main.m */; };
+		3FE0BFDE16CB01ED0077AE90 /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0BFDD16CB01ED0077AE90 /* CJAppDelegate.m */; };
+		3FE0BFE016CB01ED0077AE90 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFDF16CB01ED0077AE90 /* Default.png */; };
+		3FE0BFE216CB01ED0077AE90 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFE116CB01ED0077AE90 /* Default@2x.png */; };
+		3FE0BFE416CB01ED0077AE90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFE316CB01ED0077AE90 /* Default-568h@2x.png */; };
+		3FE0C01716CB09300077AE90 /* CJClassicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0C01616CB09300077AE90 /* CJClassicTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F20658D16D2E3D7005780A7 /* CJInfinityScrollTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJInfinityScrollTableViewController.h; sourceTree = "<group>"; };
+		3F20658E16D2E3D7005780A7 /* CJInfinityScrollTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJInfinityScrollTableViewController.m; sourceTree = "<group>"; };
+		3F313D5516CC3D0000AEB3BB /* loader-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loader-1.png"; sourceTree = "<group>"; };
+		3F313D5616CC3D0000AEB3BB /* loader-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loader-3.png"; sourceTree = "<group>"; };
+		3F313D5716CC3D0000AEB3BB /* loader-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loader-2.png"; sourceTree = "<group>"; };
+		3F313D5816CC3D0000AEB3BB /* loader-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loader-4.png"; sourceTree = "<group>"; };
+		3F313D5D16CC3F9B00AEB3BB /* CJRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJRootController.h; sourceTree = "<group>"; };
+		3F313D5E16CC3F9B00AEB3BB /* CJRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJRootController.m; sourceTree = "<group>"; };
+		3F313D6016CC419F00AEB3BB /* CJCustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJCustomTableViewController.h; sourceTree = "<group>"; };
+		3F313D6116CC419F00AEB3BB /* CJCustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJCustomTableViewController.m; sourceTree = "<group>"; };
+		3F313D6416CC444100AEB3BB /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		3F313D6516CC444100AEB3BB /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		3F313D6616CC444100AEB3BB /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		3F313D6716CC444100AEB3BB /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		3F313D6816CC444100AEB3BB /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		3F313D6916CC444100AEB3BB /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		3F313D6A16CC444100AEB3BB /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		3F313D6B16CC444100AEB3BB /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		3F313D6C16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		3F313D6D16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		3F313D6E16CC444100AEB3BB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		3F313D6F16CC444100AEB3BB /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		3F313D7016CC444100AEB3BB /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		3F313D7116CC444100AEB3BB /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		3F313D7216CC444100AEB3BB /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		3F313D7316CC444100AEB3BB /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		3F313D7416CC444100AEB3BB /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		3F313D7516CC444100AEB3BB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		3F313D7616CC444100AEB3BB /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		3F313D8016CC452900AEB3BB /* CJAFNetworkingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJAFNetworkingTableViewController.h; sourceTree = "<group>"; };
+		3F313D8116CC452900AEB3BB /* CJAFNetworkingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJAFNetworkingTableViewController.m; sourceTree = "<group>"; };
+		3F313D8316CC45FB00AEB3BB /* AFClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFClient.h; sourceTree = "<group>"; };
+		3F313D8416CC45FB00AEB3BB /* AFClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFClient.m; sourceTree = "<group>"; };
+		3FBC149816D193E400654C35 /* CJButtonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJButtonTableViewController.h; sourceTree = "<group>"; };
+		3FBC149916D193E400654C35 /* CJButtonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJButtonTableViewController.m; sourceTree = "<group>"; };
+		3FE0BFCA16CB01EC0077AE90 /* CJInfinityScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJInfinityScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE0BFCD16CB01EC0077AE90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FE0BFCF16CB01EC0077AE90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FE0BFD116CB01EC0077AE90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FE0BFD516CB01ED0077AE90 /* CJInfinityScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CJInfinityScroll-Info.plist"; sourceTree = "<group>"; };
+		3FE0BFD716CB01ED0077AE90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FE0BFD916CB01ED0077AE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE0BFDB16CB01ED0077AE90 /* CJInfinityScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJInfinityScroll-Prefix.pch"; sourceTree = "<group>"; };
+		3FE0BFDC16CB01ED0077AE90 /* CJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJAppDelegate.h; sourceTree = "<group>"; };
+		3FE0BFDD16CB01ED0077AE90 /* CJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJAppDelegate.m; sourceTree = "<group>"; };
+		3FE0BFDF16CB01ED0077AE90 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3FE0BFE116CB01ED0077AE90 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3FE0BFE316CB01ED0077AE90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3FE0C01516CB09300077AE90 /* CJClassicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJClassicTableViewController.h; sourceTree = "<group>"; };
+		3FE0C01616CB09300077AE90 /* CJClassicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJClassicTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE0BFC716CB01EC0077AE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE0BFCE16CB01EC0077AE90 /* UIKit.framework in Frameworks */,
+				3FE0BFD016CB01EC0077AE90 /* Foundation.framework in Frameworks */,
+				3FE0BFD216CB01EC0077AE90 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F20658C16D2E3D7005780A7 /* CJInfinityScroll */ = {
+			isa = PBXGroup;
+			children = (
+				3F20658D16D2E3D7005780A7 /* CJInfinityScrollTableViewController.h */,
+				3F20658E16D2E3D7005780A7 /* CJInfinityScrollTableViewController.m */,
+			);
+			name = CJInfinityScroll;
+			path = ../../../CJInfinityScroll;
+			sourceTree = "<group>";
+		};
+		3F313D6316CC444100AEB3BB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3F313D6416CC444100AEB3BB /* AFHTTPClient.h */,
+				3F313D6516CC444100AEB3BB /* AFHTTPClient.m */,
+				3F313D6616CC444100AEB3BB /* AFHTTPRequestOperation.h */,
+				3F313D6716CC444100AEB3BB /* AFHTTPRequestOperation.m */,
+				3F313D6816CC444100AEB3BB /* AFImageRequestOperation.h */,
+				3F313D6916CC444100AEB3BB /* AFImageRequestOperation.m */,
+				3F313D6A16CC444100AEB3BB /* AFJSONRequestOperation.h */,
+				3F313D6B16CC444100AEB3BB /* AFJSONRequestOperation.m */,
+				3F313D6C16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.h */,
+				3F313D6D16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.m */,
+				3F313D6E16CC444100AEB3BB /* AFNetworking.h */,
+				3F313D6F16CC444100AEB3BB /* AFPropertyListRequestOperation.h */,
+				3F313D7016CC444100AEB3BB /* AFPropertyListRequestOperation.m */,
+				3F313D7116CC444100AEB3BB /* AFURLConnectionOperation.h */,
+				3F313D7216CC444100AEB3BB /* AFURLConnectionOperation.m */,
+				3F313D7316CC444100AEB3BB /* AFXMLRequestOperation.h */,
+				3F313D7416CC444100AEB3BB /* AFXMLRequestOperation.m */,
+				3F313D7516CC444100AEB3BB /* UIImageView+AFNetworking.h */,
+				3F313D7616CC444100AEB3BB /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		3FE0BFC116CB01EC0077AE90 = {
+			isa = PBXGroup;
+			children = (
+				3FE0BFD316CB01ED0077AE90 /* CJInfinityScroll */,
+				3FE0BFCC16CB01EC0077AE90 /* Frameworks */,
+				3FE0BFCB16CB01EC0077AE90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE0BFCB16CB01EC0077AE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0BFCA16CB01EC0077AE90 /* CJInfinityScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE0BFCC16CB01EC0077AE90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0BFCD16CB01EC0077AE90 /* UIKit.framework */,
+				3FE0BFCF16CB01EC0077AE90 /* Foundation.framework */,
+				3FE0BFD116CB01EC0077AE90 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FE0BFD316CB01ED0077AE90 /* CJInfinityScroll */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0BFEB16CB02EA0077AE90 /* Categories */,
+				3FE0BFEC16CB02EA0077AE90 /* Controllers */,
+				3FE0BFEE16CB02EA0077AE90 /* Models */,
+				3FE0BFEF16CB02EA0077AE90 /* Ressources */,
+				3FE0BFF016CB02EA0077AE90 /* Vendors */,
+				3FE0BFF116CB02EA0077AE90 /* Views */,
+				3FE0BFDC16CB01ED0077AE90 /* CJAppDelegate.h */,
+				3FE0BFDD16CB01ED0077AE90 /* CJAppDelegate.m */,
+				3FE0BFD416CB01ED0077AE90 /* Supporting Files */,
+			);
+			path = CJInfinityScroll;
+			sourceTree = "<group>";
+		};
+		3FE0BFD416CB01ED0077AE90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE0BFD516CB01ED0077AE90 /* CJInfinityScroll-Info.plist */,
+				3FE0BFD616CB01ED0077AE90 /* InfoPlist.strings */,
+				3FE0BFD916CB01ED0077AE90 /* main.m */,
+				3FE0BFDB16CB01ED0077AE90 /* CJInfinityScroll-Prefix.pch */,
+				3FE0BFDF16CB01ED0077AE90 /* Default.png */,
+				3FE0BFE116CB01ED0077AE90 /* Default@2x.png */,
+				3FE0BFE316CB01ED0077AE90 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FE0BFEB16CB02EA0077AE90 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3FE0BFEC16CB02EA0077AE90 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F313D8316CC45FB00AEB3BB /* AFClient.h */,
+				3F313D8416CC45FB00AEB3BB /* AFClient.m */,
+				3FE0BFED16CB02EA0077AE90 /* Forms */,
+				3F313D5D16CC3F9B00AEB3BB /* CJRootController.h */,
+				3F313D5E16CC3F9B00AEB3BB /* CJRootController.m */,
+				3FE0C01516CB09300077AE90 /* CJClassicTableViewController.h */,
+				3FE0C01616CB09300077AE90 /* CJClassicTableViewController.m */,
+				3F313D6016CC419F00AEB3BB /* CJCustomTableViewController.h */,
+				3F313D6116CC419F00AEB3BB /* CJCustomTableViewController.m */,
+				3F313D8016CC452900AEB3BB /* CJAFNetworkingTableViewController.h */,
+				3F313D8116CC452900AEB3BB /* CJAFNetworkingTableViewController.m */,
+				3FBC149816D193E400654C35 /* CJButtonTableViewController.h */,
+				3FBC149916D193E400654C35 /* CJButtonTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FE0BFED16CB02EA0077AE90 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		3FE0BFEE16CB02EA0077AE90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FE0BFEF16CB02EA0077AE90 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3F313D5516CC3D0000AEB3BB /* loader-1.png */,
+				3F313D5616CC3D0000AEB3BB /* loader-3.png */,
+				3F313D5716CC3D0000AEB3BB /* loader-2.png */,
+				3F313D5816CC3D0000AEB3BB /* loader-4.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		3FE0BFF016CB02EA0077AE90 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				3F20658C16D2E3D7005780A7 /* CJInfinityScroll */,
+				3F313D6316CC444100AEB3BB /* AFNetworking */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		3FE0BFF116CB02EA0077AE90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE0BFC916CB01EC0077AE90 /* CJInfinityScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE0BFE716CB01ED0077AE90 /* Build configuration list for PBXNativeTarget "CJInfinityScroll" */;
+			buildPhases = (
+				3FE0BFC616CB01EC0077AE90 /* Sources */,
+				3FE0BFC716CB01EC0077AE90 /* Frameworks */,
+				3FE0BFC816CB01EC0077AE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJInfinityScroll;
+			productName = CJInfinityScroll;
+			productReference = 3FE0BFCA16CB01EC0077AE90 /* CJInfinityScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE0BFC216CB01EC0077AE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CJ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = chaufourier;
+			};
+			buildConfigurationList = 3FE0BFC516CB01EC0077AE90 /* Build configuration list for PBXProject "CJInfinityScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FE0BFC116CB01EC0077AE90;
+			productRefGroup = 3FE0BFCB16CB01EC0077AE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE0BFC916CB01EC0077AE90 /* CJInfinityScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE0BFC816CB01EC0077AE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE0BFD816CB01ED0077AE90 /* InfoPlist.strings in Resources */,
+				3FE0BFE016CB01ED0077AE90 /* Default.png in Resources */,
+				3FE0BFE216CB01ED0077AE90 /* Default@2x.png in Resources */,
+				3FE0BFE416CB01ED0077AE90 /* Default-568h@2x.png in Resources */,
+				3F313D5916CC3D0000AEB3BB /* loader-1.png in Resources */,
+				3F313D5A16CC3D0000AEB3BB /* loader-3.png in Resources */,
+				3F313D5B16CC3D0000AEB3BB /* loader-2.png in Resources */,
+				3F313D5C16CC3D0000AEB3BB /* loader-4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE0BFC616CB01EC0077AE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F313D8516CC4A3E00AEB3BB /* AFClient.m in Sources */,
+				3FE0BFDA16CB01ED0077AE90 /* main.m in Sources */,
+				3FE0BFDE16CB01ED0077AE90 /* CJAppDelegate.m in Sources */,
+				3FE0C01716CB09300077AE90 /* CJClassicTableViewController.m in Sources */,
+				3F313D5F16CC3F9B00AEB3BB /* CJRootController.m in Sources */,
+				3F313D6216CC419F00AEB3BB /* CJCustomTableViewController.m in Sources */,
+				3F313D7716CC444100AEB3BB /* AFHTTPClient.m in Sources */,
+				3F313D7816CC444100AEB3BB /* AFHTTPRequestOperation.m in Sources */,
+				3F313D7916CC444100AEB3BB /* AFImageRequestOperation.m in Sources */,
+				3F313D7A16CC444100AEB3BB /* AFJSONRequestOperation.m in Sources */,
+				3F313D7B16CC444100AEB3BB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3F313D7C16CC444100AEB3BB /* AFPropertyListRequestOperation.m in Sources */,
+				3F313D7D16CC444100AEB3BB /* AFURLConnectionOperation.m in Sources */,
+				3F313D7E16CC444100AEB3BB /* AFXMLRequestOperation.m in Sources */,
+				3F313D7F16CC444100AEB3BB /* UIImageView+AFNetworking.m in Sources */,
+				3F313D8216CC452900AEB3BB /* CJAFNetworkingTableViewController.m in Sources */,
+				3FBC149A16D193E400654C35 /* CJButtonTableViewController.m in Sources */,
+				3F20658F16D2E3D7005780A7 /* CJInfinityScrollTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FE0BFD616CB01ED0077AE90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE0BFD716CB01ED0077AE90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE0BFE516CB01ED0077AE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FE0BFE616CB01ED0077AE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE0BFE816CB01ED0077AE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CJInfinityScroll/CJInfinityScroll-Prefix.pch";
+				INFOPLIST_FILE = "CJInfinityScroll/CJInfinityScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FE0BFE916CB01ED0077AE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CJInfinityScroll/CJInfinityScroll-Prefix.pch";
+				INFOPLIST_FILE = "CJInfinityScroll/CJInfinityScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE0BFC516CB01EC0077AE90 /* Build configuration list for PBXProject "CJInfinityScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE0BFE516CB01ED0077AE90 /* Debug */,
+				3FE0BFE616CB01ED0077AE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE0BFE716CB01ED0077AE90 /* Build configuration list for PBXNativeTarget "CJInfinityScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE0BFE816CB01ED0077AE90 /* Debug */,
+				3FE0BFE916CB01ED0077AE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE0BFC216CB01EC0077AE90 /* Project object */;
+}
