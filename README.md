@@ -3,6 +3,10 @@ CJInfinityScrollTableViewController
 
 Override CJInfinityScrollTableViewController and parameters controller for use infinityscroll in iOS.
 
+It uses other libraries/classes like
+
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking)(optional)
+
 
 ### ARC
 
