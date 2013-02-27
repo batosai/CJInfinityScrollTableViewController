@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJAFNetworkingTableViewController.h"
+#import "AFNetworkingTableViewController.h"
 
 #import "AFClient.h"
 
-@interface CJAFNetworkingTableViewController () {
+@interface AFNetworkingTableViewController () {
     UINavigationController *navigationController;
     
     NSMutableDictionary *parameters;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation CJAFNetworkingTableViewController
+@implementation AFNetworkingTableViewController
 
 @synthesize navigationController = _navigationController;
 

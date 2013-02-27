@@ -8,6 +8,6 @@
 
 #import "CJInfinityScrollTableViewController.h"
 
-@interface CJButtonTableViewController : CJInfinityScrollTableViewController
+@interface ButtonTableViewController : CJInfinityScrollTableViewController
 
 @end

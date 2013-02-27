@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJClassicTableViewController.h"
+#import "ClassicTableViewController.h"
 
-@interface CJCustomTableViewController : CJClassicTableViewController
+@interface CustomTableViewController : ClassicTableViewController
 
 @end

@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "CJInfinityScrollTableViewController.h"
 
-@interface CJClassicTableViewController : CJInfinityScrollTableViewController
+@interface ClassicTableViewController : CJInfinityScrollTableViewController
 
 @end

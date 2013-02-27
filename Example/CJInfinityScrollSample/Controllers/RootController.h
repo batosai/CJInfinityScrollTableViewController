@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CJRootController : UITabBarController
+@interface RootController : UITabBarController
 
 @end

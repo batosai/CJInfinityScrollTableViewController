@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJClassicTableViewController.h"
+#import "ClassicTableViewController.h"
 
-@interface CJClassicTableViewController () {
+@interface ClassicTableViewController () {
     NSMutableArray *rows2;
     UINavigationController *navigationController;
 }
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation CJClassicTableViewController
+@implementation ClassicTableViewController
 
 @synthesize navigationController = _navigationController;
 

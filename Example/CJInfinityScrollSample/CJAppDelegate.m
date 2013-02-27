@@ -8,7 +8,7 @@
 
 #import "CJAppDelegate.h"
 
-#import "CJRootController.h"
+#import "RootController.h"
 
 @implementation CJAppDelegate
 
@@ -19,7 +19,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    _viewController = [[CJRootController alloc] init];
+    _viewController = [[RootController alloc] init];
     
     self.window.rootViewController = _viewController;
 

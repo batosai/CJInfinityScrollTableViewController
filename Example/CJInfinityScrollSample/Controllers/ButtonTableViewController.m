@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJButtonTableViewController.h"
+#import "ButtonTableViewController.h"
 
 #import "AFClient.h"
 
-@interface CJButtonTableViewController () {
+@interface ButtonTableViewController () {
     AFClient *client;
     UINavigationController *navigationController;
     
@@ -25,7 +25,7 @@
 
 @end
 
-@implementation CJButtonTableViewController
+@implementation ButtonTableViewController
 
 @synthesize navigationController = _navigationController;
 

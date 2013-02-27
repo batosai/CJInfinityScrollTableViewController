@@ -6,27 +6,27 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJRootController.h"
+#import "RootController.h"
 
-#import "CJClassicTableViewController.h"
-#import "CJCustomTableViewController.h"
-#import "CJAFNetworkingTableViewController.h"
-#import "CJButtonTableViewController.h"
+#import "ClassicTableViewController.h"
+#import "CustomTableViewController.h"
+#import "AFNetworkingTableViewController.h"
+#import "ButtonTableViewController.h"
 
-@interface CJRootController ()
+@interface RootController ()
 
 @end
 
-@implementation CJRootController
+@implementation RootController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
 
-        CJClassicTableViewController *classicTableViewController = [[CJClassicTableViewController alloc] init];
-        CJCustomTableViewController *customTableViewController = [[CJCustomTableViewController alloc] init];
-        CJAFNetworkingTableViewController *afnetworkingTableViewController = [[CJAFNetworkingTableViewController alloc] init];
-        CJButtonTableViewController *buttonTableViewController = [[CJButtonTableViewController alloc] init];
+        ClassicTableViewController *classicTableViewController = [[ClassicTableViewController alloc] init];
+        CustomTableViewController *customTableViewController = [[CustomTableViewController alloc] init];
+        AFNetworkingTableViewController *afnetworkingTableViewController = [[AFNetworkingTableViewController alloc] init];
+        ButtonTableViewController *buttonTableViewController = [[ButtonTableViewController alloc] init];
 
         UITabBarItem *tabItem = [[UITabBarItem alloc] initWithTitle:classicTableViewController.title image:nil tag:1];
         UITabBarItem *tabItem2 = [[UITabBarItem alloc] initWithTitle:customTableViewController.title image:nil tag:2];

@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJCustomTableViewController.h"
+#import "CustomTableViewController.h"
 
-@interface CJCustomTableViewController ()
+@interface CustomTableViewController ()
 
 @end
 
-@implementation CJCustomTableViewController
+@implementation CustomTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style {
     self = [super initWithStyle:style];

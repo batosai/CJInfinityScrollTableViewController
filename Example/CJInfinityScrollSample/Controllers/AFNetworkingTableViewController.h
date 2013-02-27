@@ -8,6 +8,6 @@
 
 #import "CJInfinityScrollTableViewController.h"
 
-@interface CJAFNetworkingTableViewController : CJInfinityScrollTableViewController
+@interface AFNetworkingTableViewController : CJInfinityScrollTableViewController
 
 @end

@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class CJRootController;
+@class RootController;
 
 @interface CJAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic, retain) CJRootController *viewController;
+@property (nonatomic, retain) RootController *viewController;
 
 @end
