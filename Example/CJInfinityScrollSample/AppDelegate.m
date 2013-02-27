@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 chaufourier. All rights reserved.
 //
 
-#import "CJAppDelegate.h"
+#import "AppDelegate.h"
 
 #import "RootController.h"
 

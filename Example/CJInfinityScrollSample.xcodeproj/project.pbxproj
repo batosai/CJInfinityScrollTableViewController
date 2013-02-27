@@ -15,6 +15,8 @@
 		3F313D6216CC419F00AEB3BB /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D6116CC419F00AEB3BB /* CustomTableViewController.m */; };
 		3F313D8216CC452900AEB3BB /* AFNetworkingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D8116CC452900AEB3BB /* AFNetworkingTableViewController.m */; };
 		3F313D8516CC4A3E00AEB3BB /* AFClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F313D8416CC45FB00AEB3BB /* AFClient.m */; };
+		3F42E53C16DEC287001A897D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFD616CB01ED0077AE90 /* InfoPlist.strings */; };
+		3F42E53D16DEC292001A897D /* InfinityScrollSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFD516CB01ED0077AE90 /* InfinityScrollSample-Info.plist */; };
 		3FA214D216D3059600F280E6 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA214C016D3059600F280E6 /* AFHTTPClient.m */; };
 		3FA214D316D3059600F280E6 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA214C216D3059600F280E6 /* AFHTTPRequestOperation.m */; };
 		3FA214D416D3059600F280E6 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA214C416D3059600F280E6 /* AFImageRequestOperation.m */; };
@@ -32,9 +34,8 @@
 		3FE0BFCE16CB01EC0077AE90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE0BFCD16CB01EC0077AE90 /* UIKit.framework */; };
 		3FE0BFD016CB01EC0077AE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE0BFCF16CB01EC0077AE90 /* Foundation.framework */; };
 		3FE0BFD216CB01EC0077AE90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE0BFD116CB01EC0077AE90 /* CoreGraphics.framework */; };
-		3FE0BFD816CB01ED0077AE90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE0BFD616CB01ED0077AE90 /* InfoPlist.strings */; };
 		3FE0BFDA16CB01ED0077AE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0BFD916CB01ED0077AE90 /* main.m */; };
-		3FE0BFDE16CB01ED0077AE90 /* CJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0BFDD16CB01ED0077AE90 /* CJAppDelegate.m */; };
+		3FE0BFDE16CB01ED0077AE90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0BFDD16CB01ED0077AE90 /* AppDelegate.m */; };
 		3FE0C01716CB09300077AE90 /* ClassicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE0C01616CB09300077AE90 /* ClassicTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -81,12 +82,12 @@
 		3FE0BFCD16CB01EC0077AE90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FE0BFCF16CB01EC0077AE90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FE0BFD116CB01EC0077AE90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3FE0BFD516CB01ED0077AE90 /* CJInfinityScrollSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CJInfinityScrollSample-Info.plist"; sourceTree = "<group>"; };
+		3FE0BFD516CB01ED0077AE90 /* InfinityScrollSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinityScrollSample-Info.plist"; sourceTree = "<group>"; };
 		3FE0BFD716CB01ED0077AE90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FE0BFD916CB01ED0077AE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FE0BFDB16CB01ED0077AE90 /* CJInfinityScrollSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CJInfinityScrollSample-Prefix.pch"; sourceTree = "<group>"; };
-		3FE0BFDC16CB01ED0077AE90 /* CJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CJAppDelegate.h; sourceTree = "<group>"; };
-		3FE0BFDD16CB01ED0077AE90 /* CJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJAppDelegate.m; sourceTree = "<group>"; };
+		3FE0BFDB16CB01ED0077AE90 /* InfinityScrollSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfinityScrollSample-Prefix.pch"; sourceTree = "<group>"; };
+		3FE0BFDC16CB01ED0077AE90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE0BFDD16CB01ED0077AE90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FE0C01516CB09300077AE90 /* ClassicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassicTableViewController.h; sourceTree = "<group>"; };
 		3FE0C01616CB09300077AE90 /* ClassicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,8 +188,8 @@
 				3FE0BFEF16CB02EA0077AE90 /* Ressources */,
 				3FAD759C16D305460075CCF7 /* Vendors */,
 				3FE0BFF116CB02EA0077AE90 /* Views */,
-				3FE0BFDC16CB01ED0077AE90 /* CJAppDelegate.h */,
-				3FE0BFDD16CB01ED0077AE90 /* CJAppDelegate.m */,
+				3FE0BFDC16CB01ED0077AE90 /* AppDelegate.h */,
+				3FE0BFDD16CB01ED0077AE90 /* AppDelegate.m */,
 				3FE0BFD416CB01ED0077AE90 /* Supporting Files */,
 			);
 			path = CJInfinityScrollSample;
@@ -197,10 +198,10 @@
 		3FE0BFD416CB01ED0077AE90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FE0BFD516CB01ED0077AE90 /* CJInfinityScrollSample-Info.plist */,
+				3FE0BFD516CB01ED0077AE90 /* InfinityScrollSample-Info.plist */,
 				3FE0BFD616CB01ED0077AE90 /* InfoPlist.strings */,
 				3FE0BFD916CB01ED0077AE90 /* main.m */,
-				3FE0BFDB16CB01ED0077AE90 /* CJInfinityScrollSample-Prefix.pch */,
+				3FE0BFDB16CB01ED0077AE90 /* InfinityScrollSample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -319,7 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE0BFD816CB01ED0077AE90 /* InfoPlist.strings in Resources */,
+				3F42E53D16DEC292001A897D /* InfinityScrollSample-Info.plist in Resources */,
+				3F42E53C16DEC287001A897D /* InfoPlist.strings in Resources */,
 				3F313D5916CC3D0000AEB3BB /* loader-1.png in Resources */,
 				3F313D5A16CC3D0000AEB3BB /* loader-3.png in Resources */,
 				3F313D5B16CC3D0000AEB3BB /* loader-2.png in Resources */,
@@ -339,7 +341,7 @@
 			files = (
 				3F313D8516CC4A3E00AEB3BB /* AFClient.m in Sources */,
 				3FE0BFDA16CB01ED0077AE90 /* main.m in Sources */,
-				3FE0BFDE16CB01ED0077AE90 /* CJAppDelegate.m in Sources */,
+				3FE0BFDE16CB01ED0077AE90 /* AppDelegate.m in Sources */,
 				3FE0C01716CB09300077AE90 /* ClassicTableViewController.m in Sources */,
 				3F313D5F16CC3F9B00AEB3BB /* RootController.m in Sources */,
 				3F313D6216CC419F00AEB3BB /* CustomTableViewController.m in Sources */,
@@ -434,8 +436,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CJInfinityScrollSample/CJInfinityScrollSample-Prefix.pch";
-				INFOPLIST_FILE = "CJInfinityScrollSample/CJInfinityScrollSample-Info.plist";
+				GCC_PREFIX_HEADER = "CJInfinityScrollSample/InfinityScrollSample-Prefix.pch";
+				INFOPLIST_FILE = "CJInfinityScrollSample/InfinityScrollSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,8 +447,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CJInfinityScrollSample/CJInfinityScrollSample-Prefix.pch";
-				INFOPLIST_FILE = "CJInfinityScrollSample/CJInfinityScrollSample-Info.plist";
+				GCC_PREFIX_HEADER = "CJInfinityScrollSample/InfinityScrollSample-Prefix.pch";
+				INFOPLIST_FILE = "CJInfinityScrollSample/InfinityScrollSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
