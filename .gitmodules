@@ -1,3 +1,6 @@
 [submodule "submodules/AFNetworking"]
 	path = submodules/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "submodules/PullToRefresh"]
+	path = submodules/PullToRefresh
+	url = https://github.com/batosai/PullToRefresh.git
