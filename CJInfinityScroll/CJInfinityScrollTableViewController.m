@@ -89,7 +89,7 @@
     return view;
 }
 
-- (void)startLoading
+- (void)beginLoading
 {
     [indicatorView startAnimating];
     loadingView.hidden = NO;
@@ -99,13 +99,16 @@
     limit = ROWS_WITH_PAGE;
 }
 
-- (void)stopLoading
+- (void)endLoading
 {
     [indicatorView stopAnimating];
     loadingView.hidden = YES;
     isLoadingRows = NO;
     
     [self.tableView reloadData];
+#ifdef _CJINFINITYSCROLL_PULLREFRESH
+    [super stopLoading];
+#endif
 }
 
 - (void)setVisibilityLoadingView:(BOOL)visible {
@@ -130,7 +133,10 @@
 #pragma mark - Delegate
 
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView
-{    
+{
+#ifdef _CJINFINITYSCROLL_PULLREFRESH
+    [super scrollViewDidScroll:scrollView];
+#endif
     if (!isLoadingRows &&
         scrollView.contentOffset.y >= (scrollView.contentSize.height - CGRectGetHeight(self.view.frame))){
         
@@ -143,7 +149,7 @@
         size.height += 50;
         scrollView.contentSize = size;
         
-        [self startLoading];
+        [self beginLoading];
         [self reload:nil];
     }
 }

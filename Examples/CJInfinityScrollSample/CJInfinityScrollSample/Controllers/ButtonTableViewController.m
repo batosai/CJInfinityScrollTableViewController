@@ -91,7 +91,7 @@
 #pragma mark surcharge CJInfinityScroll method
 
 - (void)reload:(id)sender {
-    [self startLoading];
+    [self beginLoading];
     
     if ([sender isEqualToString:@"refresh"]) {
         parameters = [NSMutableDictionary dictionaryWithDictionary:@{
@@ -157,7 +157,7 @@
 }
 
 - (void) stopLoading {
-    [super stopLoading];
+    [super endLoading];
 
     [animationView stopAnimating];
     button.hidden = NO;

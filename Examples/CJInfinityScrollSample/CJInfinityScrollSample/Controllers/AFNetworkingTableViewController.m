@@ -70,7 +70,7 @@
 #pragma mark surcharge CJInfinityScroll method
 
 - (void)reload:(id)sender {
-    [self startLoading];
+    [self beginLoading];
 
     [[AFClient sharedClient] getPath:@"search.json" parameters:parameters success:^(AFHTTPRequestOperation *operation, id JSON) {
         NSArray *response = [JSON valueForKeyPath:@"results"];
@@ -86,7 +86,7 @@
             parameters = nil;
         }
 
-        [self stopLoading];
+        [self endLoading];
     } failure:nil];
 }
 

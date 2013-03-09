@@ -116,7 +116,7 @@
 - (void)loading:(NSTimer*)timer  {
     [rows addObjectsFromArray:rows2];
     
-    [self stopLoading];
+    [self endLoading];
 }
 
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView {
