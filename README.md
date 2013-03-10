@@ -6,6 +6,11 @@ Override CJInfinityScrollTableViewController and parameters controller for use i
 It uses other libraries/classes like
 
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)(optional)
+* [PullToRefresh](https://github.com/batosai/PullToRefresh)(optional)
+
+### PullToRefresh
+
+For extend [PullToRefresh](https://github.com/batosai/PullToRefresh) please insert `#define _CJINFINITYSCROLL_PULLREFRESH` to the header prefix of the project (`Prefix.pch`) and include the `QuartzCore` framework.
 
 
 ### ARC
