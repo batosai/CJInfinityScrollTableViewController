@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "CJInfinityScroll"
   s.version      = "1.0"
-  s.summary      = "Infinityscroll in iOS"
+  s.summary      = "Infinityscroll in iOS."
   s.homepage     = "https://github.com/batosai/CJInfinityScrollTableViewController"
   s.license      = 'MIT'
   s.author       = { "Jeremy Chaufourier" => "jeremy@opsone.net" }
