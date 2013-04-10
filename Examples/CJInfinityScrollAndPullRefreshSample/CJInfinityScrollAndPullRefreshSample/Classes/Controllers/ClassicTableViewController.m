@@ -71,6 +71,8 @@
          @"item 39",
          @"item 40"]
          ];
+
+        totalRowsCount = [rows count] + [rows2 count];
     }
 
     return self;
@@ -123,13 +125,15 @@
 }
 
 - (void)loading:(NSTimer*)timer  {
-    [rows addObjectsFromArray:rows2];
+    if ([rows count] != totalRowsCount){
+        [rows addObjectsFromArray:rows2];
+    }
     
     [self endLoading];
 }
 
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView {
-    if ([rows count] != 40){
+    if ([rows count] != totalRowsCount){
         [super scrollViewDidScroll:scrollView];
     }
 }
