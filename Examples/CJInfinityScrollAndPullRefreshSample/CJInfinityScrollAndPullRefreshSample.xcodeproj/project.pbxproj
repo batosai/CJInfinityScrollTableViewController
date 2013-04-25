@@ -16,12 +16,6 @@
 		3F05C3AE16EB816800AD888D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3AD16EB816800AD888D /* Default.png */; };
 		3F05C3B016EB816800AD888D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3AF16EB816800AD888D /* Default@2x.png */; };
 		3F05C3B216EB816800AD888D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3B116EB816800AD888D /* Default-568h@2x.png */; };
-		3F05C3C616EB819800AD888D /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3B916EB819800AD888D /* .gitkep */; };
-		3F05C3C716EB819800AD888D /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3BD16EB819800AD888D /* .gitkep */; };
-		3F05C3C816EB819800AD888D /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3BF16EB819800AD888D /* .gitkep */; };
-		3F05C3C916EB819800AD888D /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3C116EB819800AD888D /* .gitkep */; };
-		3F05C3CA16EB819800AD888D /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3C316EB819800AD888D /* .gitkep */; };
-		3F05C3CB16EB819800AD888D /* .gitkep in Resources */ = {isa = PBXBuildFile; fileRef = 3F05C3C516EB819800AD888D /* .gitkep */; };
 		3F05C3D016EB81DD00AD888D /* CJInfinityScrollTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F05C3CF16EB81DD00AD888D /* CJInfinityScrollTableViewController.m */; };
 		3F05C3F016EB835F00AD888D /* ClassicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F05C3EF16EB832500AD888D /* ClassicTableViewController.m */; };
 		3F464ED816EB8499008018E1 /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F05C3F316EB845D00AD888D /* PullRefreshTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -77,7 +71,6 @@
 		3F05C38F16EB816800AD888D = {
 			isa = PBXGroup;
 			children = (
-				3F464ED916EB850E008018E1 /* QuartzCore.framework */,
 				3F05C3A116EB816800AD888D /* CJInfinityScrollAndPullRefreshSample */,
 				3F05C39A16EB816800AD888D /* Frameworks */,
 				3F05C39916EB816800AD888D /* Products */,
@@ -95,6 +88,7 @@
 		3F05C39A16EB816800AD888D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F464ED916EB850E008018E1 /* QuartzCore.framework */,
 				3F05C39B16EB816800AD888D /* UIKit.framework */,
 				3F05C39D16EB816800AD888D /* Foundation.framework */,
 				3F05C39F16EB816800AD888D /* CoreGraphics.framework */,
@@ -275,12 +269,6 @@
 				3F05C3AE16EB816800AD888D /* Default.png in Resources */,
 				3F05C3B016EB816800AD888D /* Default@2x.png in Resources */,
 				3F05C3B216EB816800AD888D /* Default-568h@2x.png in Resources */,
-				3F05C3C616EB819800AD888D /* .gitkep in Resources */,
-				3F05C3C716EB819800AD888D /* .gitkep in Resources */,
-				3F05C3C816EB819800AD888D /* .gitkep in Resources */,
-				3F05C3C916EB819800AD888D /* .gitkep in Resources */,
-				3F05C3CA16EB819800AD888D /* .gitkep in Resources */,
-				3F05C3CB16EB819800AD888D /* .gitkep in Resources */,
 				3F464EDC16EB8F52008018E1 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

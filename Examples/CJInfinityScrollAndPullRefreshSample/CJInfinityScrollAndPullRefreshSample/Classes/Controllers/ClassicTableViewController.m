@@ -47,7 +47,7 @@
                   @"item 19",
                   @"item 20",]
          ];
-        
+
         rows2 = NSMutableArray.new;
         [rows2 addObjectsFromArray: @[
          @"item 21",
